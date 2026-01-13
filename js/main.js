@@ -1,1 +1,4 @@
+// main.js
+initMap();
+loadStands();
 
