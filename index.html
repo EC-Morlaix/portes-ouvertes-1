@@ -25,15 +25,17 @@
   <!-- Script Leaflet -->
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
-  <script>
-    // Création de la carte
-    const map = L.map('map').setView([48.576, -3.836], 20);
 
-    // Fond OpenStreetMap
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: '© OpenStreetMap'
-    }).addTo(map);
-  </script>
+   <div id="map"></div>
+
+  <!-- Script Leaflet (obligatoire) -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <!-- Scripts du projet -->
+  <script src="js/map.js"></script>
+  <script src="js/data-stands.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/main.js"></script>
 
 </body>
 </html>
