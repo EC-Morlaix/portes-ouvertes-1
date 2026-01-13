@@ -1,12 +1,39 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>New Webpage</title>
-    </head>
-    <body>
-<h1>My Heading</h1>
-      <p>Example paragraph</p>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Mini plan interactif</title>
 
-    </body>
+  <!-- Feuilles de style Leaflet -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  />
+
+  <style>
+    #map {
+      height: 100vh;
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="map"></div>
+
+  <!-- Script Leaflet -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <script>
+    // Création de la carte
+    const map = L.map('map').setView([48.833, 2.285], 17);
+
+    // Fond OpenStreetMap
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '© OpenStreetMap'
+    }).addTo(map);
+  </script>
+
+</body>
 </html>
