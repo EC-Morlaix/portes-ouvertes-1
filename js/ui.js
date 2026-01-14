@@ -10,6 +10,6 @@ function loadStands() {
 
     L.marker(stand.coords, { icon: iconStand })
       .addTo(map)
-      .bindPopup(`<b>${stand.nom}</b><br>${stand.exposant}</b><br><a href=${stand.info}>site web</a></b>`);
+      .bindPopup(`<b>${stand.nom}</b><br>${stand.exposant}<br><a href=${stand.info}>site web</a>`);
   });
 }
