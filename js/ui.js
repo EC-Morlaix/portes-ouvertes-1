@@ -9,7 +9,7 @@ function loadStands() {
 
     const bounds = [
      // [y - height / 2, x - width / 2],
-      [y + height / 2, x + width / 2]//
+      //[y + height / 2, x + width / 2]//
        [y - height , x - width ],
       [y + height , x + width ]
     ];
