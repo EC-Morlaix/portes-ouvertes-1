@@ -67,18 +67,8 @@ body {
 
 /* Mode téléphone */
 @media screen and (orientation: portrait) {
-  map {
-    transform: rotate(90deg);
-    transform-origin: left top;
-    width: 100vh;
-    height: 100vw;
-    position: absolute;
-    top: 0;
-    left: 100%;
-    overflow: hidden;
-  }
-
   #map {
+    orientation:portrait
     width: 100vh;
     height: 100vw;
   }
