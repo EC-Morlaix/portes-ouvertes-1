@@ -2,7 +2,7 @@
 let map;
 
 function initMap() {
-   map = L.map('map').setView([48.576, -3.836], 20);
+   map = L.map('map').setView([48.576, -3.836], 18);
 
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '© OpenStreetMap'
