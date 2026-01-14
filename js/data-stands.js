@@ -2,7 +2,7 @@ const stands = [
   {
     nom: "10-01",
     exposant: "Mobilités ERASMUS+",
-    coords: [348,1285] // y, x en pixels
+    coords: [400,1285] // y, x en pixels
   }
 ];
 
