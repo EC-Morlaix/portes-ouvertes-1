@@ -1,6 +1,6 @@
 // Dimensions réelles de l’image (en pixels)
-const imageWidth = 2000;
-const imageHeight = 1200;
+const imageWidth = 1505;
+const imageHeight = 593;
 
 // Coordonnées fictives
 const bounds = [[0, 0], [imageHeight, imageWidth]];
