@@ -1,15 +1,25 @@
 // ui.js
 function loadStands() {
   stands.forEach(stand => {
-    const iconStand = L.divIcon({
-      className: "stand-rect",
-      html: `<div>${stand.nom}</div>`,
-      iconSize: [60, 30],
-      iconAnchor: [30, 15]
-    });
+    const y = stand.coords[0];
+    const x = stand.coords[1];
 
-    L.marker(stand.coords, { icon: iconStand })
-      .addTo(map)
-      .bindPopup(`<b>${stand.nom}</b><br>${stand.exposant}<br><a href=${stand.info}>site web</a>`);
+    const width = 60;   // largeur en "unités image"
+    const height = 30;  // hauteur en "unités image"
+
+    const bounds = [
+      [y - height / 2, x - width / 2],
+      [y + height / 2, x + width / 2]
+    ];
+
+    L.rectangle(bounds, {
+      color: '#2e7d32',
+      weight: 1,
+      fillColor: '#4caf50',
+      fillOpacity: 0.7
+    })
+    .addTo(map)
+    .bindPopup(`<b>${stand.nom}</b><br>${stand.exposant}<br><a href=${stand.info}>site web</a>`);
   });
 }
+
