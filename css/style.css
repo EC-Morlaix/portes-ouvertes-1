@@ -63,3 +63,5 @@ body {
   white-space: nowrap;
 }
 
+/*@media screnn and (orientation: portrait){...}*/
+/*@media screnn and (orientation: lanscape){...}*/
