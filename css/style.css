@@ -5,21 +5,37 @@ html, body {
   height: 100%;
 }
 
-/* CONTENEUR STABLE */
+/* Conteneur de la carte */
+#map-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+/* Carte Leaflet */
 #map {
   width: 100%;
   height: 100%;
 }
 
-/* Mobile : on ne touche PAS à la taille pendant le zoom */
-@media screen and (max-width: 768px) {
+/* Mobile portrait : rotation du conteneur uniquement */
+@media screen and (max-width: 768px) and (orientation: portrait) {
+  #map-container {
+    transform: rotate(90deg);
+    transform-origin: center center;
+    width: 100vh;
+    height: 100vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+  }
+  /* La carte elle-même reste normale */
   #map {
     width: 100%;
     height: 100%;
   }
 }
-
-
 
 /* Panneau latéral */
 #panel {
@@ -31,7 +47,7 @@ html, body {
   padding: 15px;
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-  z-index: 1000; /* au-dessus de la carte */
+  z-index: 1000;
 }
 
 /* Titre */
@@ -61,16 +77,21 @@ html, body {
   background-color: #1a5dcc;
 }
 
-/*.stand-rect div {
+/* Rectangle des stands */
+.stand-rect {
   background-color: #4caf50;
-  color: white;
-  border-radius: 4px;
-  padding: 4px 6px;
-  font-size: 12px;
-  font-weight: bold;
-  text-align: center;
   border: 1px solid #2e7d32;
+  border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.3);
-  white-space: nowrap;
-}*/
+}
 
+/* Popup des stands (optionnel : fixe, responsive) */
+.leaflet-popup-content {
+  font-size: 14px;
+  max-width: 300px;
+  min-width: 200px;
+}
+
+.leaflet-popup-content-wrapper {
+  padding: 10px;
+}
