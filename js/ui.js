@@ -21,7 +21,7 @@ function loadStands() {
  //     fillOpacity: 0.9
     })
     .addTo(map)
-    .bindPopup(`<b>${stand.nom}</b><br>${stand.exposant}<br><a href=${stand.info}>site web</a>`,
+    .bindPopup(`<b>${stand.nom}</b><br>${stand.exposant}<br><a href=${stand.info} target="_blank">site web</a>`,
       {
       maxWidth: 300,
       minWidth: 200,
