@@ -7,7 +7,7 @@ const bounds = [[0, 0], [imageHeight, imageWidth]];
 
 const map = L.map('map', {
   crs: L.CRS.Simple,
-  minZoom: -2,
+  minZoom: 0,
   maxZoom: 2
 });
 
