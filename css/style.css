@@ -49,3 +49,17 @@ body {
 #panel button:hover {
   background-color: #1a5dcc;
 }
+
+.stand-rect div {
+  background-color: #4caf50;
+  color: white;
+  border-radius: 4px;
+  padding: 4px 6px;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid #2e7d32;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  white-space: nowrap;
+}
+
