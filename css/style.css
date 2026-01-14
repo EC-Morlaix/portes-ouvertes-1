@@ -11,7 +11,14 @@ html, body {
   height: 100%;
 }
 
-/* Téléphone en portrait → affichage paysage forcé */
+@media screen and (max-width: 768px) {
+  #map {
+    width: 100vh;
+    height: 100vw;
+  }
+}
+
+/* Téléphone en portrait → affichage paysage forcé 
 @media screen and (max-width: 768px) and (orientation: portrait) {
   #map {
     transform: rotate(90deg);
@@ -22,7 +29,7 @@ html, body {
     top: 50%;
     left: 50%;
     translate: -50% -50%;
-  }
+  }*/
 }
 /* Carte Leaflet */
 #map {
