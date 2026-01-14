@@ -14,3 +14,7 @@ const map = L.map('map', {
 L.imageOverlay('img/10rdc.PNG', bounds).addTo(map);
 
 map.fitBounds(bounds);
+setTimeout(() => {
+  map.invalidateSize();
+}, 300);
+
