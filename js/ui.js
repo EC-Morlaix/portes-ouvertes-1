@@ -19,7 +19,7 @@ function loadStands() {
       weight: 1,
       fillColor: '#4caf50',
      fillOpacity: 1
-    });
+    })
     .addTo(map)
     .bindPopup(`<b>${stand.nom}</b><br>${stand.exposant}<br><a href=${stand.info} target="_blank">site web</a>`,
       {
