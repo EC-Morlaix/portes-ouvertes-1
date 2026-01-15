@@ -23,9 +23,10 @@ function loadStands() {
     .addTo(map)
     .bindPopup(`<b>${stand.nom}</b><br>${stand.exposant}<br><a href=${stand.info} target="_blank">site web</a>`,
       {
-      maxWidth: 300,
-      minWidth: 200,
-      maxHeight: 150
+      width: 300,
+     // minWidth: 200,
+      //maxHeight: 150
+        height:150
     });
   });
 }
