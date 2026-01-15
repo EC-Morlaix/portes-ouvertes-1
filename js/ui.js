@@ -20,14 +20,14 @@ function loadStands() {
       fillColor: '#4caf50',
      fillOpacity: 1
     });
-    .addTo(map);
+    .addTo(map)
     .bindPopup(`<b>${stand.nom}</b><br>${stand.exposant}<br><a href=${stand.info} target="_blank">site web</a>`,
       {
       minWidth: 300,
      // minWidth: 200,
       //maxHeight: 150
         minHeight:150
-    } );
+    } )
     .openPopup();
   });
 }
