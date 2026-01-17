@@ -7,23 +7,14 @@ function loadStands() {
     const width = stand.coords[2];   // largeur en "unités image"
     const height = stand.coords[3];  // hauteur en "unités image"
 
-    const bounds = [
-      [y - height, x - width],
-      [y + height, x + width]
-    ];
-
-    L.rectangle(bounds, {
-      color: stand.color,
-      weight: 1,
-      fillColor: stand.color,
-     fillOpacity: 1
-    })
+   
+    L.marker([y,x])
     .addTo(map)
+   // L.marker([x,y])
+   // .addTo(map)
     .bindPopup(`<b>${stand.nom}</b><br>${stand.exposant}<br><a href=${stand.info} target="_blank">site web</a>`,
       {
       minWidth: 300,
-     // minWidth: 200,
-      //maxHeight: 150
         minHeight:150
     } )
   });
