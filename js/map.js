@@ -1,6 +1,6 @@
 // Dimensions réelles de l’image (en pixels)
-const imageWidth = 1505;
-const imageHeight = 593;
+const imageWidth = 2028/2;
+const imageHeight = 1052/2;
 
 // Coordonnées fictives
 const bounds = [[0, 0], [imageHeight, imageWidth]];
@@ -11,7 +11,7 @@ const map = L.map('map', {
   maxZoom: 2
 });
 
-L.imageOverlay('../img/10rdc.PNG', bounds).addTo(map);
+L.imageOverlay('../img/plan10-rdc.png', bounds).addTo(map);
 
 map.fitBounds(bounds);
 setTimeout(() => {

@@ -4,19 +4,19 @@ function loadStands() {
     const x = stand.coords[0];
     const y = stand.coords[1];
 
-    const width = stand.coords[2];   // largeur en "unités image"
-    const height = stand.coords[3];  // hauteur en "unités image"
-
-   
-    L.marker([y,x])
+    var marker = L.marker([y,x])
     .addTo(map)
-   // L.marker([x,y])
-   // .addTo(map)
     .bindPopup(`<b>${stand.nom}</b><br>${stand.exposant}<br><a href=${stand.info} target="_blank">site web</a>`,
       {
       minWidth: 300,
         minHeight:150
     } )
+
+    var icon = marker.options.icon;
+    icon.options.iconSize = [35, 60];
+    icon.options.shadowSize = [0,0];
+    marker.setIcon(icon);
+
   });
 }
 
