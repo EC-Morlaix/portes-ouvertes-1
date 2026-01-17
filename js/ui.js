@@ -17,7 +17,7 @@ function loadStands() {
     L.rectangle(bounds, {
       color: '#2e7d32',
       weight: 1,
-      fillColor: '#4caf50',
+      fillColor: stand.fillColor,
      fillOpacity: 1
     })
     .addTo(map)
