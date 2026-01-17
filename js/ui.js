@@ -6,11 +6,10 @@ function loadStands() {
 
     var marker = L.marker([y,x])
     .addTo(map)
-    .bindPopup(`<b>${stand.nom}</b><br>${stand.exposant}<br><a href=${stand.info} target="_blank">site web</a>`,
+    .bindPopup(`<b>${stand.nom}</b><br>${stand.exposant}<br><a href=${stand.info} target="_blank">Plus d'informations</a>`,
       {
-      minWidth: 500,
+      minWidth: 500
     } )
-
     var icon = marker.options.icon;
     icon.options.iconSize = [35, 60];
     icon.options.shadowSize = [0,0];

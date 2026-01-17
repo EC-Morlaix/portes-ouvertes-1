@@ -1,10 +1,24 @@
 /* Style général */
-html, body {
+html {
   margin: 0;
   padding: 0;
   height: 100%;
 }
 
+a {text-decoration: none;
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-image: url(../img/Accueil.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1{ 
+  color :#F36E29; 
+  font-size: 80px;
+}
 /* Conteneur de la carte */
 #map-container {
   width: 100%;
@@ -88,8 +102,7 @@ html, body {
 /* Popup des stands (optionnel : fixe, responsive) */
 .leaflet-popup-content {
   font-size: 14px;
-  max-width: 300px;
-  min-width: 200px;
+	width: 600px !important;
 }
 
 .leaflet-popup-content-wrapper {
