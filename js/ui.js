@@ -8,8 +8,8 @@ function loadStands() {
     const height = stand.coords[3];  // hauteur en "unités image"
 
     const bounds = [
-       [x-width,y - height],
-      [x + width, y + height]
+      [y - height,y - width],
+      [y + height, x + width]
     ];
 
     L.rectangle(bounds, {
