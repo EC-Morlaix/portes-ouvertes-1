@@ -11,7 +11,7 @@ const map = L.map('map', {
   maxZoom: 2
 });
 
-L.imageOverlay('/img/10rdc.PNG', bounds).addTo(map);
+L.imageOverlay('../img/10rdc.PNG', bounds).addTo(map);
 
 map.fitBounds(bounds);
 setTimeout(() => {
