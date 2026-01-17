@@ -28,7 +28,6 @@ function loadStands() {
       //maxHeight: 150
         minHeight:150
     } )
-    .openPopup();
   });
 }
 
