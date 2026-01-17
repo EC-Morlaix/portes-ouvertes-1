@@ -8,8 +8,7 @@ function loadStands() {
     .addTo(map)
     .bindPopup(`<b>${stand.nom}</b><br>${stand.exposant}<br><a href=${stand.info} target="_blank">site web</a>`,
       {
-      minWidth: 300,
-        minHeight:150
+      minWidth: 500,
     } )
 
     var icon = marker.options.icon;
