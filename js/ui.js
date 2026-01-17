@@ -1,8 +1,8 @@
 // ui.js
 function loadStands() {
   stands.forEach(stand => {
-    const y = stand.coords[0];
-    const x = stand.coords[1];
+    const x = stand.coords[0];
+    const y = stand.coords[1];
 
     const width = stand.coords[2];   // largeur en "unités image"
     const height = stand.coords[3];  // hauteur en "unités image"
