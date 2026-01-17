@@ -8,7 +8,7 @@ function loadStands() {
     const height = stand.coords[3];  // hauteur en "unités image"
 
     const bounds = [
-      [y - height,y - width],
+      [y - height, x - width],
       [y + height, x + width]
     ];
 
