@@ -4,8 +4,8 @@ function loadStands() {
     const y = stand.coords[0];
     const x = stand.coords[1];
 
-    const width = 60;   // largeur en "unités image"
-    const height = 30;  // hauteur en "unités image"
+    const width = stand.coords[2];   // largeur en "unités image"
+    const height = stand.coords[3];  // hauteur en "unités image"
 
     const bounds = [
      // [y - height / 2, x - width / 2],
