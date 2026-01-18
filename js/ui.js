@@ -14,7 +14,6 @@ function loadStands() {
     icon.options.iconSize = [35, 60];
     icon.options.shadowSize = [0,0];
     marker.setIcon(icon);
-
   });
 }
 
