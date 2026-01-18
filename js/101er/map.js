@@ -11,12 +11,12 @@ const map = L.map('map', {
   maxZoom: 2
 });
 
-L.imageOverlay('../img/plan10-rdc.png', bounds).addTo(map);
+L.imageOverlay('../img/plan101er.png', bounds).addTo(map);
 
 map.fitBounds(bounds);
 setTimeout(() => {
   map.invalidateSize();
 }, 300);
 
-loadStands();
+
 
