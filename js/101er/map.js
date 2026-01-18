@@ -18,3 +18,5 @@ setTimeout(() => {
   map.invalidateSize();
 }, 300);
 
+loadStands();
+

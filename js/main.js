@@ -1,6 +1,0 @@
-
-//initMap();
-loadStands();
-
-
-
