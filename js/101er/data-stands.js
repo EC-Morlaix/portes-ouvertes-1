@@ -1,0 +1,76 @@
+const stands = [
+  {
+    cursus : "Fillière SANITAIRE",
+    nom: "5-109",
+    exposant: "Présentation des ateliers sanitaires",
+    coords: [200,450], // y, x en pixels,
+    titreInfo:"Plus d'informations",
+    info:"../doc/Ateliers/sanitaire.html",
+  },
+  {
+    cursus : "Classe ULIS",
+    nom: "5-105",
+    exposant: "Présentation de la classe ULIS",
+    coords: [870,450], // y, x en pixels,
+    titreInfo:"Plus d'informations",
+    info:"../doc/Ateliers/ULIS.html",
+  },
+  {
+    cursus : "Fillière Générales et technologique",
+    nom: "10-21, 10-22",
+    exposant: "Spécialités NSI, SI",
+    coords: [870,100], // y, x en pixels,
+    titreInfo:"Plus d'informations",
+    info:"../doc/Ateliers/si-nsi.html",
+  },
+  {
+    cursus : "Fillière Générales et technologique",
+    nom: "10-27",
+    exposant: "Filière STMG et spécialité SES",
+    coords: [120,100], // y, x en pixels,
+    titreInfo:"Plus d'informations",
+    info:"../doc/Ateliers/stmg.html",
+  },
+  {
+    cursus : "Fillière Générales et technologique",
+    nom: "10-23",
+    exposant: "Pédagogie CUA",
+    coords: [650,100], // y, x en pixels,
+    titreInfo:"Plus d'informations",
+    info:"../doc/Ateliers/stmg.html",
+  },
+  {
+    cursus : "Fillière Générales et technologique",
+    nom: "10-25",
+    exposant: "Spécialité HLP- Philosophie",
+    coords: [300,100], // y, x en pixels,
+    titreInfo:"Plus d'informations",
+    info:"../doc/Ateliers/stmg.html",
+  },
+   {
+    cursus : "Aller au 2ème étage",
+    nom: "Escalier",
+    exposant: "Lycée Professionnel",
+    coords: [200,550], // y, x en pixels,
+    titreInfo:"Accéder",
+    info:"../doc/plan102eme.html",
+  },
+  {
+    cursus : "Aller au 2ème étage",
+    nom: "Escalier",
+    exposant: "Lycée Professionnel",
+    coords: [900,550], // y, x en pixels,
+    titreInfo:"Accéder",
+    info:"../doc/plan102eme.html",
+  },
+{
+    cursus : "Retour RDC",
+    nom: "Escalier",
+    exposant: "Lycée Professionnel - Lycée Général et technologique",
+    coords: [450,250], // y, x en pixels,
+    titreInfo:"Accéder",
+    info:"../doc/plan10rdc.html",
+  }
+  
+];
+
