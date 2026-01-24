@@ -22,7 +22,7 @@ const stands = [
     exposant: "Centre documentation",
     coords: [450,200], // y, x en pixels,
     titreInfo:"Plus d'informations",
-    info:"../../doc/Ateliers/cdi.html",
+    info:"../doc/Ateliers/cdi.html",
 
   },
 ];

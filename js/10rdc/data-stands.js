@@ -5,7 +5,7 @@ const stands = [
     exposant: "Labo Sciences",
     coords: [400,100], // y, x en pixels,
     titreInfo:"Plus d'informations",
-    info:"../../doc/Ateliers/erasmus.html",
+    info:"../doc/Ateliers/erasmus.html",
 
   },
   {
@@ -14,7 +14,7 @@ const stands = [
     exposant: "Présentation de la seconde générale et technologique",
     coords: [700,300], // y, x en pixels,
     titreInfo:"Plus d'informations",
-    info:"../../doc/Ateliers/secondeGT.html",
+    info:"../doc/Ateliers/secondeGT.html",
   },
   {
     cursus : "Fillière VENTE",
@@ -22,7 +22,7 @@ const stands = [
     exposant: "Présentation du bac professionnel MRC-MCV",
     coords: [810,450], // y, x en pixels,
     titreInfo:"Plus d'informations",
-    info:"../../doc/Ateliers/vente.html",
+    info:"../doc/Ateliers/vente.html",
   },
   ,
   {
@@ -31,7 +31,7 @@ const stands = [
     exposant: "Présentation des ateliers sanitaires",
     coords: [200,450], // y, x en pixels,
     titreInfo:"Plus d'informations",
-    info:"../../doc/Ateliers/soins.html",
+    info:"../doc/Ateliers/soins.html",
   },
    {
     cursus : "Aller au 2ème étage",
