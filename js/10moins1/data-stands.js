@@ -9,12 +9,12 @@ const stands = [
 
   },
   {
-    cursus : "Aller au 1er étage",
+    cursus : "Aller à l'étage",
     nom: "Escalier",
     exposant: "Lycée Professionnel - Lycée Général et Technologique",
     coords: [450,500], // y, x en pixels,
     titreInfo:"Accéder",
-    info:"../doc/plan101er.html",
+    info:"../doc/plan10rdc.html",
   }
 ];
 
