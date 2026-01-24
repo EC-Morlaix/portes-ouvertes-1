@@ -17,6 +17,9 @@ body {
 body.accueil {
   background-image: url(../img/Accueil.JPG)
 }
+body.vente{
+  background-image: url(../img/Ateliers/MCV.jpg)
+}
 h1{ 
   color :#f00707; 
   font-size: 80px;
