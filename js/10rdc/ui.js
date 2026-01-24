@@ -1,5 +1,4 @@
 // ui.js
-
 loadStands();
 function loadStands() {
   stands.forEach(stand => {
