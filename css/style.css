@@ -16,8 +16,14 @@ body {
   background-size: cover;
 }
 h1{ 
-  color :#F36E29; 
+  color :#f00707; 
   font-size: 80px;
+}
+.titre-gt {
+  color :#f35a08; 
+}
+.titre-pro {
+  color :#92059a;
 }
 /* Conteneur de la carte */
 #map-container {
