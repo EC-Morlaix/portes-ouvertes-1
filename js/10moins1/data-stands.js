@@ -5,7 +5,7 @@ const stands = [
     exposant: "Mobilités ERASMUS+",
     coords: [810,200], // y, x en pixels,
     titreInfo:"Plus d'informations",
-    info:"https://www.ecmorlaix.fr/",
+    info:"../doc/Ateliers/erasmus.html",
 
   },
   {
