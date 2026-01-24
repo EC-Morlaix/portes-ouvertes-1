@@ -18,6 +18,9 @@ body.accueil {
   background-size: cover;
 
 }
+body.vente{
+  background-color: #dd81e2;
+}
 h1{ 
   color :#f00707; 
   font-size: 80px;
