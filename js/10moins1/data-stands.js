@@ -15,6 +15,15 @@ const stands = [
     coords: [450,500], // y, x en pixels,
     titreInfo:"Accéder",
     info:"../doc/plan10rdc.html",
-  }
+  },
+  {
+    cursus : "Proposé à tous ",
+    nom: "CDI",
+    exposant: "Centre documentation",
+    coords: [810,500], // y, x en pixels,
+    titreInfo:"Plus d'informations",
+    info:"../../doc/Ateliers/cdi.html",
+
+  },
 ];
 
