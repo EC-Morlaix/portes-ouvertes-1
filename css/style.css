@@ -18,10 +18,6 @@ body.accueil {
   background-size: cover;
 
 }
-body.vente{
-  background-image: url(../img/Ateliers/MCV.jpg);
-  background-size: contain;
-}
 h1{ 
   color :#f00707; 
   font-size: 80px;
