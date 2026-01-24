@@ -34,7 +34,7 @@ const stands = [
     info:"../doc/Ateliers/soins.html",
   },
    {
-    cursus : "Aller au 2ème étage",
+    cursus : "Aller au 1er étage",
     nom: "Escalier",
     exposant: "Lycée Professionnel - Lycée Général et Technologique",
     coords: [400,300], // y, x en pixels,
