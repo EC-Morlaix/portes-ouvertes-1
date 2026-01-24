@@ -7,6 +7,14 @@ html {
 
 a {text-decoration: none;
 }
+
+.image {
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  margin-inline: auto;
+  top: 20px;
+}
 body {
   margin: 0;
   padding: 0;
@@ -22,8 +30,10 @@ body.vente{
   background-color: #dd81e2;
 }
 h1{ 
+  position: relative;
   color :#f00707; 
   font-size: 80px;
+  z-index: 1000;
 }
 .titre-gt {
   color :#f35a08; 
