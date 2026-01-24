@@ -20,7 +20,7 @@ const stands = [
     cursus : "Proposé à tous ",
     nom: "CDI",
     exposant: "Centre documentation",
-    coords: [810,500], // y, x en pixels,
+    coords: [450,200], // y, x en pixels,
     titreInfo:"Plus d'informations",
     info:"../../doc/Ateliers/cdi.html",
 
