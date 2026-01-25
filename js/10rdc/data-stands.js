@@ -5,7 +5,7 @@ const stands = [
     exposant: "Labo Sciences",
     coords: [400,100], // y, x en pixels,
     titreInfo:"Plus d'informations",
-    info:"../doc/Ateliers/erasmus.html",
+    info:"../doc/Ateliers/sciences.html",
 
   },
   {

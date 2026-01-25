@@ -1,5 +1,7 @@
 const stands = [
-  {
+  { atelier:true,
+    pro:false,
+    gt:false,
     cursus : "Proposé à tous ",
     nom: "10-01",
     exposant: "Mobilités ERASMUS+",
@@ -8,7 +10,9 @@ const stands = [
     info:"../doc/Ateliers/erasmus.html",
 
   },
-  {
+  { atelier:false,
+    pro:false,
+    gt:false,
     cursus : "Aller à l'étage",
     nom: "Escalier",
     exposant: "Lycée Professionnel - Lycée Général et Technologique",
@@ -16,7 +20,9 @@ const stands = [
     titreInfo:"Accéder",
     info:"../doc/plan10rdc.html",
   },
-  {
+  { atelier:true,
+    pro: false,
+    gt:false,
     cursus : "Proposé à tous ",
     nom: "CDI",
     exposant: "Centre documentation",
