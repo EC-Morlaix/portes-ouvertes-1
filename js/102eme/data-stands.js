@@ -1,5 +1,7 @@
 const stands = [
-  {
+  {atelier:true,
+    pro:true,
+    gt:false,
     cursus : "Filière Animation",
     nom: "5-207",
     exposant: "Présentation du bac Animation enfants et personnes agées",
@@ -7,7 +9,9 @@ const stands = [
     titreInfo:"Plus d'informations",
     info:"../doc/Ateliers/aepa.html",
   },
-   {
+   {atelier:true,
+    pro:true,
+    gt:false,
     cursus : "Filière Animation",
     nom: "5-204",
     exposant: "Présentation du bac Animation enfants et personnes agées",
@@ -15,7 +19,9 @@ const stands = [
     titreInfo:"Plus d'informations",
     info:"../doc/Ateliers/aepa.html",
   },
-  {
+  {atelier:false,
+    pro:false,
+    gt:false,
     cursus : "Retour 1er étage",
     nom: "Escalier",
     exposant: "Lycée Professionnel - Lycée Général et Technologique",
