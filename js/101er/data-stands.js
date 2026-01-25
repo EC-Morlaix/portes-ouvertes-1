@@ -1,5 +1,7 @@
 const stands = [
-  {
+  {atelier:true,
+    pro:true,
+    gt:false,
     cursus : "Fillière SANITAIRE",
     nom: "5-109",
     exposant: "Présentation des ateliers sanitaires",
@@ -7,7 +9,9 @@ const stands = [
     titreInfo:"Plus d'informations",
     info:"../doc/Ateliers/sanitaire.html",
   },
-  {
+  {atelier:true,
+    pro:true,
+    gt:false,
     cursus : "Classe ULIS",
     nom: "5-105",
     exposant: "Présentation de la classe ULIS",
@@ -15,7 +19,9 @@ const stands = [
     titreInfo:"Plus d'informations",
     info:"../doc/Ateliers/ULIS.html",
   },
-  {
+  {atelier:true,
+    pro:false,
+    gt:true,
     cursus : "Fillière Générales et technologique",
     nom: "10-21, 10-22",
     exposant: "Spécialités NSI, SI",
@@ -23,7 +29,9 @@ const stands = [
     titreInfo:"Plus d'informations",
     info:"../doc/Ateliers/si-nsi.html",
   },
-  {
+  {atelier:true,
+    pro:false,
+    gt:true,
     cursus : "Fillière Générales et technologique",
     nom: "10-27",
     exposant: "Filière STMG et spécialité SES",
@@ -31,7 +39,9 @@ const stands = [
     titreInfo:"Plus d'informations",
     info:"../doc/Ateliers/stmg.html",
   },
-  {
+  {atelier:true,
+    pro:false,
+    gt:true,
     cursus : "Fillière Générales et technologique",
     nom: "10-23",
     exposant: "Pédagogie CUA",
@@ -39,7 +49,9 @@ const stands = [
     titreInfo:"Plus d'informations",
     info:"../doc/Ateliers/stmg.html",
   },
-  {
+  {atelier:true,
+    pro:false,
+    gt:true,
     cursus : "Fillière Générales et technologique",
     nom: "10-25",
     exposant: "Spécialité HLP- Philosophie",
@@ -47,7 +59,9 @@ const stands = [
     titreInfo:"Plus d'informations",
     info:"../doc/Ateliers/stmg.html",
   },
-   {
+   {atelier:false,
+    pro:false,
+    gt:false,
     cursus : "Aller au 2ème étage",
     nom: "Escalier",
     exposant: "Lycée Professionnel",
@@ -55,7 +69,9 @@ const stands = [
     titreInfo:"Accéder",
     info:"../doc/plan102eme.html",
   },
-  {
+  {atelier:false,
+    pro:false,
+    gt:false,
     cursus : "Aller au 2ème étage",
     nom: "Escalier",
     exposant: "Lycée Professionnel",
@@ -63,7 +79,9 @@ const stands = [
     titreInfo:"Accéder",
     info:"../doc/plan102eme.html",
   },
-{
+{atelier:false,
+    pro:false,
+    gt:false,
     cursus : "Retour RDC",
     nom: "Escalier",
     exposant: "Lycée Professionnel - Lycée Général et technologique",
