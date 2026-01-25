@@ -7,7 +7,7 @@ function loadStands() {
 
     var marker = L.marker([y,x])
     .addTo(map)
-    .bindPopup(`<b>${stand.cursus}</b><br><b>${stand.nom}</b><br>${stand.exposant}<br><a href=${stand.info} target="_blank">${stand.titreInfo}</a>`,
+    .bindPopup(`<b>${stand.cursus}</b><br><b>${stand.nom}</b><br>${stand.exposant}<br><a href=${stand.info}>${stand.titreInfo}</a>`,
       {
       minWidth: 500
     } )
