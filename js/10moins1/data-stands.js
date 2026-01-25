@@ -10,6 +10,17 @@ const stands = [
     info:"../doc/Ateliers/erasmus.html",
 
   },
+  { atelier:true,
+    pro:false,
+    gt:false,
+    cursus : "Proposé à tous ",
+    nom: "10-03",
+    exposant: "Projet Numérique",
+    coords: [600,80], // y, x en pixels,
+    titreInfo:"Plus d'informations",
+    info:"../doc/Ateliers/projetnumerique.html",
+
+  },
   { atelier:false,
     pro:false,
     gt:false,
