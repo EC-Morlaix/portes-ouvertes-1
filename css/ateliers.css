@@ -18,10 +18,10 @@ body.pro{
   background-color: #dd81e2;
 }
 
-.titre-gt {
+.titre-gt {text-align: center;
   color :#f35a08; 
 }
-.titre-pro {
+.titre-pro {text-align: center;
   color :#92059a;
 }
 
