@@ -14,7 +14,7 @@ body {
   background-repeat: no-repeat;
 }
 
-body.vente{
+body.pro{
   background-color: #dd81e2;
 }
 
@@ -26,22 +26,15 @@ body.vente{
 }
 
 header {
-  background: rgb(62, 38, 167);
+ /* background: rgb(62, 38, 167);*/
   height: 100px;
 }
-h1 {
-  text-align: center;
-  color: white;
-  line-height: 100px;
-  margin: 0;
-}
 section {
-  flex-wrap: wrap;
-  zoom: 0.8;
+  display: flex;
 }
 article {
   padding: 10px;
   margin: 10px;
-  background: aqua;
+  /*background: aqua;*/
 }
 /* Ajoutez votre CSS flexbox ci-dessous */
