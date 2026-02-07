@@ -4,16 +4,6 @@ html {
   padding: 0;
   height: 100%;
 }
-
-a {text-decoration: none;
-}
-.image {
-  position: absolute;
-  right: 0px;
-  left: 0px;
-  margin-inline: auto;
-  top: 20px;
-}
 body {
   margin: 0;
   padding: 0;
@@ -25,21 +15,16 @@ body.accueil {
   background-size: cover;
 
 }
-body.vente{
-  background-color: #dd81e2;
-}
+
 h1{ 
   position: relative;
   color :#f00707; 
   font-size: 80px;
   z-index: 1000;
 }
-.titre-gt {
-  color :#f35a08; 
+a {text-decoration: none;
 }
-.titre-pro {
-  color :#92059a;
-}
+
 /* Conteneur de la carte */
 #map-container {
   width: 100%;

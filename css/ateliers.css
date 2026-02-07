@@ -1,0 +1,47 @@
+.image {
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  margin-inline: auto;
+  top: 20px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: sans-serif;
+
+  background-repeat: no-repeat;
+}
+
+body.vente{
+  background-color: #dd81e2;
+}
+
+.titre-gt {
+  color :#f35a08; 
+}
+.titre-pro {
+  color :#92059a;
+}
+
+header {
+  background: rgb(62, 38, 167);
+  height: 100px;
+}
+h1 {
+  text-align: center;
+  color: white;
+  line-height: 100px;
+  margin: 0;
+}
+section {
+  flex-wrap: wrap;
+  zoom: 0.8;
+}
+article {
+  padding: 10px;
+  margin: 10px;
+  background: aqua;
+}
+/* Ajoutez votre CSS flexbox ci-dessous */
