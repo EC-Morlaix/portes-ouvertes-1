@@ -50,7 +50,16 @@ const stands = [
     coords: [400,300], // y, x en pixels,
     titreInfo:"Accéder",
     info:"../doc/plan101er.html",
+  },
+   {atelier:false,
+    pro:false,
+    gt:false,
+    cursus : "Aller vers le Batiment 7",
+    nom: "Escalier",
+    exposant: "Lycée Professionnel - Lycée Général et Technologique",
+    coords: [385,550], // y, x en pixels,
+    titreInfo:"Accéder",
+    info:"../doc/plan101er.html",
   }
-  
 ];
 
