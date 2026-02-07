@@ -14,10 +14,21 @@ body {
   background-repeat: no-repeat;
 }
 
+body.gen{
+  background-color: #ec7424;
+
+}
+
 body.pro{
   background-color: #dd81e2;
 }
 
+body.tous{
+  background-color: #6461bd;
+}
+.titre-tous {text-align: center;
+  color :#200fba; 
+}
 .titre-gt {text-align: center;
   color :#f35a08; 
 }
