@@ -57,7 +57,7 @@ const stands = [
     cursus : "Aller vers le Batiment 7",
     nom: "Escalier",
     exposant: "Lycée Professionnel - Lycée Général et Technologique",
-    coords: [385,550], // y, x en pixels,
+    coords: [385,500], // y, x en pixels,
     titreInfo:"Accéder",
     info:"../doc/plan7rdc.html",
   }
