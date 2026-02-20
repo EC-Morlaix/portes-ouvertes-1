@@ -1,0 +1,23 @@
+const stands = [
+  {atelier:true,
+    pro:true,
+    gt:false,
+    cursus : "Pour les filières sanitaires",
+    nom: "7-22",
+    exposant: "Animation",
+    coords: [400,200], // y, x en pixels,
+    titreInfo:"Plus d'informations",
+    info:"../doc/Ateliers/sanitaire.html",
+  },
+    {atelier:false,
+    pro:false,
+    gt:false,
+    cursus : "Descendre au RDC",
+    nom: "Escalier",
+    exposant: "Lycée Professionnel - Lycée Général et Technologique",
+    coords: [800,400], // y, x en pixels,
+    titreInfo:"Accéder",
+    info:"../doc/plan7rdc.html",
+  },
+];
+
