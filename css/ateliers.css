@@ -9,31 +9,41 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
-  font-family: sans-serif;
-
+  /*font-family: sans-serif;*/
+font-family: 'Montserrat', sans-serif;
   background-repeat: no-repeat;
 }
 
 body.gen{
-  background-color: #eaa273;
+  background-color: #e9c5ac;
+  font-family: 'Montserrat', sans-serif;
+font-family: 'Montserrat', sans-serif;
 
 }
-
 body.pro{
   background-color: #dd81e2;
+  font-family: 'Montserrat', sans-serif;
 }
 
 body.tous{
-  background-color: #6461bd;
+  background-color: #a7a5de;
+  font-family: 'Montserrat', sans-serif;
+
 }
 .titre-tous {text-align: center;
   color :#200fba; 
+  font-family: 'Montserrat', sans-serif;
+
 }
 .titre-gt {text-align: center;
   color :#f35a08; 
+  font-family: 'Montserrat', sans-serif;
+
 }
 .titre-pro {text-align: center;
   color :#92059a;
+  font-family: 'Montserrat', sans-serif;
+
 }
 
 header {
@@ -42,10 +52,14 @@ header {
 }
 section {
   display: flex;
+  font-family: 'Montserrat', sans-serif;
+
 }
 article {
   padding: 10px;
   margin: 10px;
+  font-family: 'Montserrat', sans-serif;
+
   /*background: aqua;*/
 }
 /* Ajoutez votre CSS flexbox ci-dessous */
