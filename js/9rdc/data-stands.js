@@ -7,7 +7,17 @@ const stands = [
     exposant: "Lycée Professionnel - Lycée Général et Technologique",
     coords: [485,200], // y, x en pixels,
     titreInfo:"Accéder",
-    info:"../doc/plan10rdc.html",
+    info:"../doc/bat5-7-9.html",
+  },
+  {atelier:true,
+    pro:false,
+    gt:false,
+    cursus : "Internat",
+    nom: "Batiment 9",
+    exposant: "Lycée Professionnel - Lycée Général et Technologique",
+    coords: [600,300], // y, x en pixels,
+    titreInfo:"Accéder",
+    info:"../doc/Ateliers/internat.html",
   }
 ];
 

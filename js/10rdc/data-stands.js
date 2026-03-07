@@ -80,7 +80,7 @@ const stands = [
     exposant: "Lycée Professionnel - Lycée Général et Technologique",
     coords: [385,500], // y, x en pixels,
     titreInfo:"Accéder",
-    info:"../doc/plan7rdc.html",
+    info:"../doc/bat5-7-9.html",
   }
 ];
 
